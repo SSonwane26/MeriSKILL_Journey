@@ -13,7 +13,7 @@ MeriSKILL is a valuable resource for students and recent graduates who are looki
 
 ## About Projects
 ### Project One
-[DASHBOARD]()
+[DASHBOARD](https://github.com/SSonwane26/MeriSKILL_Journey/blob/main/Project1.png)
 
 **Cleaninig and Modeling the Data:**
 
