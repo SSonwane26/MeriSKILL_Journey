@@ -82,3 +82,4 @@ We have successfully completed our first project, gaining valuable insights into
 
 
 ### Project Three
+HR ATTRITION [DASHBOARD](https://github.com/SSonwane26/MeriSKILL_Journey/blob/main/Project3.png)
