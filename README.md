@@ -32,18 +32,15 @@ The dataset consists of 11 columns, each column representing an attribute of pur
 For this project, we performed data analysis using Excel, utilizing Power Query. Here are the steps we followed:
 
 1. Data Loading: We loaded the data using Power Query, which is a data transformation tool in Excel.
-
-2. Column Headers: We promoted headers to ensure the data columns were appropriately labeled.
-
-3. Column Selection: Unwanted columns were removed from the dataset to streamline the analysis.
-
-4. New Columns: We inserted additional columns into the dataset, enhancing its usability:
-
-   a. Week of Year: A new column was created using the 'Order Date' column to represent the week of the year for each order.
-
-   b. City: Another new column was added, extracting the city information from the 'Purchase Address' column.
-
-   c. Sales: We introduced a 'Sales' column by combining data from the 'Quantity' and 'Price' columns to calculate the total sales for each order.
+   
+1. Column Headers: We promoted headers to ensure the data columns were appropriately labeled.
+   
+1. Column Selection: Unwanted columns were removed from the dataset to streamline the analysis.
+   
+1. New Columns: We inserted additional columns into the dataset, enhancing its usability:
+   - Week of Year: A new column was created using the 'Order Date' column to represent the week of the year for each order.
+   - City: Another new column was added, extracting the city information from the 'Purchase Address' column.
+   - Sales: We introduced a 'Sales' column by combining data from the 'Quantity' and 'Price' columns to calculate the total sales for each order.
 
 **Creating Dashboard:**
 
@@ -51,7 +48,7 @@ After preprocessing the data, the sales data was loaded into a Pivot Table, and 
 
 1. Pivot Table: A Pivot Table was generated using the sales data.
 
-2. Key Performance Indicators (KPIs):
+1. Charts , Graphs and Key Performance Indicators (KPIs):
    - Revenue: Calculated the total revenue from the sales data.
    - Total Orders: Determined the count of total orders.
    - Total Products: Counted the total number of unique products.
@@ -60,7 +57,7 @@ After preprocessing the data, the sales data was loaded into a Pivot Table, and 
    - Regionwise Sales: Presented region-wise sales using a bar chart.
    - Top Products by Sales: Displayed the top products by sales using another bar chart.
 
-3. Slicers:
+1. Slicers:
    - Region Slicer: Implemented a slicer to filter data by region.
    - Month Slicer: Included a slicer to filter data by month.
 
@@ -72,32 +69,33 @@ Here are the key insights from the data analysis:
 
 1. Revenue: The total revenue is $34.49 million.
 
-2. Total Orders: There are a total of 185,950 orders.
+1. Total Orders: There are a total of 185,950 orders.
 
-3. Total Unique Products: There are 19 unique products in the dataset.
+1. Total Unique Products: There are 19 unique products in the dataset.
 
-4. Most Sales Months: The months of October, November, and December have the highest sales, with Quarter Four being a high sales quarter, likely due to festivals and vacation seasons.
+1. Most Sales Months: The months of October, November, and December have the highest sales, with Quarter Four being a high sales quarter, likely due to festivals and vacation seasons.
 
-5. Weekly Sales: Weeks 39 to 53 of the year show higher sales.
+1. Weekly Sales: Weeks 39 to 53 of the year show higher sales.
 
-6. Regional Revenue: San Francisco contributes the most revenue, followed by Los Angeles (LA) and New York (NY).
+1. Regional Revenue: San Francisco contributes the most revenue, followed by Los Angeles (LA) and New York (NY).
 
-7. Top Products by Sales: The top-selling products are MacBook, iPhone, and ThinkPad.
+1. Top Products by Sales: The top-selling products are MacBook, iPhone, and ThinkPad.
 
-8. Slicer Example: Using slicers, you can see that in the Austin region, the total revenue in the month of April is $0.17 million.
+1. Slicer Example: Using slicers, you can see that in the Austin region, the total revenue in the month of April is $0.17 million.
 
 These insights provide a clear understanding of the sales performance and trends in the dataset, allowing for informed decision-making and further analysis.
 
 We have successfully completed our first project, gaining valuable insights into the workings of the sales industry and how past data can be used to predict future sales. Additionally, we have acquired the skill of designing attractive and informative dashboards.
 
 ### Project Two
+After completing Project 1, our next step is Project 2, focusing on diabetes analysis.
+
 DIABETES ANALYSIS [DASHBOARD](https://github.com/SSonwane26/MeriSKILL_Journey/blob/main/Project2.png)
 
 **About Dataset:**
 
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to predict based on diagnostic measurements whether a patient has diabetes. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
-
--bPregnancies: Number of times pregnant
+- Pregnancies: Number of times pregnant
 - Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
 - BloodPressure: Diastolic blood pressure (mm Hg)
 - SkinThickness: Triceps skin fold thickness (mm)
@@ -109,17 +107,15 @@ This dataset is originally from the National Institute of Diabetes and Digestive
 
 **Cleaninig and Modeling the Data:**
 
-After completing Project 1, our next step is Project 2, focusing on diabetes analysis.
-
 For this project, we performed data analysis using Power BI, utilizing Visualization Techniques. Here's what we did:
 
 1. Data Loading: We loaded the data using Power Query, which is a data transformation tool in Power BI.
 
-2. Column Headers: We promoted headers to ensure the data columns were appropriately labeled.
+1. Column Headers: We promoted headers to ensure the data columns were appropriately labeled.
 
-3. Column Selection: Unwanted columns were removed from the dataset to streamline the analysis.
+1. Column Selection: Unwanted columns were removed from the dataset to streamline the analysis.
 
-4. Column Additions: We added new columns based on specific conditions:
+1. Column Additions: We added new columns based on specific conditions:
 
    a. Weightgroup using BMI column.
       - <18.5 : UnderWeight, 18.5 to 34.9 : NormalWeight, 35 to 29.9 : OverWeight, >30 : Obesity
@@ -135,7 +131,53 @@ For this project, we performed data analysis using Power BI, utilizing Visualiza
 
 **Creating Dashboard:**
 
+Here's the data visualization plan for our HR Attrition Analysis project, broken down into key points:
+
+1. Key Performance Indicators (KPIs):
+   - Total Patients
+   - Average Number of Pregnancies
+   - Average Skin Thickness
+   - Average Insulin
+
+2. Visualization Types:
+   - Clustered Columns Chart: To show diabetes status by Age Group, using the number of patients, age group, and 'Diabetic' (yes or no) as legend.
+   - Clustered Columns Chart: To visualize diabetes status by Weight Group, with the number of patients, weight group, and 'Diabetic' (yes or no) as legend.
+   - Clustered Columns Chart: To illustrate diabetes status by Glucose Level, including the number of patients, glucose level (low, high, normal), and 'Diabetic' (yes or no) as legend.
+   - Clustered Columns Chart: For depicting diabetes status by BP Level, using the number of patients, BP Level (low, high, normal), and 'Diabetic' (yes or no) as legend.
+   - Area Chart: To represent the relationship between the number of pregnancies and diabetes status, utilizing 'Pregnancies,' 'Number of Patients,' and 'Diabetic' (yes or no) as legend.
+   - Pie Chart: To display the proportion of patients with diabetes, with the 'Diabetic' (yes or no) as legend.
+
+3. Slicers:
+   - Slicers for filtering by Diabetic status (yes or no).
+   - Slicers for filtering by Age Group (middle, old, young).
+
+These visualizations will provide valuable insights for our HR Attrition Analysis.
+
+**Insights:**
+
+Here are the key insights from our HR Attrition Analysis project:
+
+1. Total Patients: There are a total of 768 patients in our dataset.
+
+1. Average Number of Pregnancies: On average, patients have around 4 pregnancies.
+
+1. Average Skin Thickness: The average skin thickness among patients is 21mm.
+
+1. Average Insulin: The average insulin level is approximately 80mu U/ml.
+
+1. Diabetic Chances:
+   - Middle Age: Patients in the middle-age category have a 52% chance of being diabetic.
+   - Obesity: About 46% of patients with obesity are at risk of diabetes.
+   - High Blood Pressure: High blood pressure is associated with a 47% risk of diabetes.
+   - Increased Pregnancies: There is an increased risk of diabetes with an increase in the number of pregnancies.
+
+These insights provide a valuable understanding of factors associated with diabetes in our dataset.
+
+With these insights, we've successfully completed Project 2. Now, it's time to move on to our final project, Project 3
+
 ### Project Three
+Now, onto our third and final project, focusing on HR Attrition Analysis.
+
 HR ATTRITION [DASHBOARD](https://github.com/SSonwane26/MeriSKILL_Journey/blob/main/Project3.png)
 
 **About Dataset:**
