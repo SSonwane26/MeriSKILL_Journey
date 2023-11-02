@@ -15,6 +15,18 @@ MeriSKILL is a valuable resource for students and recent graduates who are looki
 ### Project One
 SALES ANALYSIS [DASHBOARD](https://github.com/SSonwane26/MeriSKILL_Journey/blob/main/Project1.png)
 
+**About Dataset:**
+
+The dataset consists of 11 columns, each column representing an attribute of purchase on a product -
+
+- Order ID - A unique ID for each order placed on a product
+- Product - Item that is purchased
+- Quantity Ordered - Describes how many of that products are ordered
+- Price Each - Price of a unit of that product
+- Order Date - Date on which the order is placed
+- Purchase Address - Address to where the order is shipped
+- Month, Sales, City, Hour - Extra attributes formed from the above.
+
 **Cleaninig and Modeling the Data:**
 
 For this project, we performed data analysis using Excel, utilizing Power Query. Here are the steps we followed:
@@ -79,7 +91,115 @@ These insights provide a clear understanding of the sales performance and trends
 We have successfully completed our first project, gaining valuable insights into the workings of the sales industry and how past data can be used to predict future sales. Additionally, we have acquired the skill of designing attractive and informative dashboards.
 
 ### Project Two
+DIABETES ANALYSIS [DASHBOARD](https://github.com/SSonwane26/MeriSKILL_Journey/blob/main/Project2.png)
 
+**About Dataset:**
+
+This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to predict based on diagnostic measurements whether a patient has diabetes. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
+
+-bPregnancies: Number of times pregnant
+- Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+- BloodPressure: Diastolic blood pressure (mm Hg)
+- SkinThickness: Triceps skin fold thickness (mm)
+- Insulin: 2-Hour serum insulin (mu U/ml)
+- BMI: Body mass index (weight in kg/(height in m)^2)
+- DiabetesPedigreeFunction: Diabetes pedigree function
+- Age: Age (years)
+- Outcome: Class variable (0 or 1)
+
+**Cleaninig and Modeling the Data:**
+
+After completing Project 1, our next step is Project 2, focusing on diabetes analysis.
+
+For this project, we performed data analysis using Power BI, utilizing Visualization Techniques. Here's what we did:
+
+1. Data Loading: We loaded the data using Power Query, which is a data transformation tool in Power BI.
+
+2. Column Headers: We promoted headers to ensure the data columns were appropriately labeled.
+
+3. Column Selection: Unwanted columns were removed from the dataset to streamline the analysis.
+
+4. Column Additions: We added new columns based on specific conditions:
+
+   a. Weightgroup using BMI column.
+      - <18.5 : UnderWeight, 18.5 to 34.9 : NormalWeight, 35 to 29.9 : OverWeight, >30 : Obesity
+   
+   b. BPlevel using blood pressure column.
+      - <60 : Low, 60 t0 80 : Normal, >80 : High
+   
+   c. Glucoselevel using glucose column.
+      - <80 : Low, 80 t0 180 : Normal, >180 : High
+    
+   d. Agegroup using age column.
+      - <30 : YounAdult, 31 to 45 : MiddleAgeAdult, >45 : OldAgeAdult
+
+**Creating Dashboard:**
 
 ### Project Three
 HR ATTRITION [DASHBOARD](https://github.com/SSonwane26/MeriSKILL_Journey/blob/main/Project3.png)
+
+**About Dataset:**
+
+HR Analytics helps us with interpreting organizational data. It finds the people-related trends in the data and allows the HR Department to take the appropriate steps to keep the organization running smoothly and profitably. Attrition in a corporate setup is one of the complex challenges that the people managers and the HRs personnel have to deal with.
+- Plot a correlation map for all numeric variables
+- Overtime
+- Marital Status
+- Job Role
+- Gender
+- Education Field
+- Department
+- Business Travel
+- Relation between Overtime and Age
+- Total Working Years
+- Education Level
+- Number of Companies Worked
+- Distance from Home
+
+Education
+1 'Below College'
+2 'College'
+3 'Bachelor'
+4 'Master'
+5 'Doctor'
+
+EnvironmentSatisfaction
+1 'Low'
+2 'Medium'
+3 'High'
+4 'Very High'
+
+JobInvolvement
+1 'Low'
+2 'Medium'
+3 'High'
+4 'Very High'
+
+JobSatisfaction
+1 'Low'
+2 'Medium'
+3 'High'
+4 'Very High'
+
+PerformanceRating
+1 'Low'
+2 'Good'
+3 'Excellent'
+4 'Outstanding'
+
+RelationshipSatisfaction
+1 'Low'
+2 'Medium'
+3 'High'
+4 'Very High'
+
+WorkLifeBalance
+1 'Bad'
+2 'Good'
+3 'Better'
+4 'Best'
+
+**Cleaninig and Modeling the Data:**
+
+**Creating Dashboard:**
+
+**Insights:**
