@@ -27,7 +27,7 @@ The dataset consists of 11 columns, each column representing an attribute of pur
 - Purchase Address - Address to where the order is shipped
 - Month, Sales, City, Hour - Extra attributes formed from the above.
 
-**Cleaninig and Modeling the Data:**
+**Cleaninig and Preprocessing the Data:**
 
 For this project, we performed data analysis using Excel, utilizing Power Query. Here are the steps we followed:
 
@@ -105,7 +105,7 @@ This dataset is originally from the National Institute of Diabetes and Digestive
 - Age: Age (years)
 - Outcome: Class variable (0 or 1)
 
-**Cleaninig and Modeling the Data:**
+**Cleaninig and Preprocessing the Data:**
 
 For this project, we performed data analysis using Power BI, utilizing Visualization Techniques. Here's what we did:
 
@@ -197,51 +197,82 @@ HR Analytics helps us with interpreting organizational data. It finds the people
 - Number of Companies Worked
 - Distance from Home
 
-Education
-1 'Below College'
-2 'College'
-3 'Bachelor'
-4 'Master'
-5 'Doctor'
+**Cleaninig and Preprocessing the Data:**
 
-EnvironmentSatisfaction
-1 'Low'
-2 'Medium'
-3 'High'
-4 'Very High'
+Certainly, here's the data preprocessing process for Project 3, "HR Attrition," broken down into clear steps:
 
-JobInvolvement
-1 'Low'
-2 'Medium'
-3 'High'
-4 'Very High'
+1. Data Loading: We initiated the analysis by loading the data into Power Query.
 
-JobSatisfaction
-1 'Low'
-2 'Medium'
-3 'High'
-4 'Very High'
+2. Header Promotion: Ensured proper column headers by promoting them.
 
-PerformanceRating
-1 'Low'
-2 'Good'
-3 'Excellent'
-4 'Outstanding'
+3. Data Cleaning: Removed unnecessary rows and columns to streamline the dataset.
 
-RelationshipSatisfaction
-1 'Low'
-2 'Medium'
-3 'High'
-4 'Very High'
+4. Column Renaming: Renamed columns for clarity and consistency.
 
-WorkLifeBalance
-1 'Bad'
-2 'Good'
-3 'Better'
-4 'Best'
+5. Conditional Columns: Introduced new columns based on conditions,
+   - Age Group: Categorized ages into groups (18-24, 25-34, 35-44, 45-54) using the 'Age' column.
+   - Distance Status: Defined distance categories (Nearby, Far, Very Far) based on the 'Distance from Home' column.
+   - Working Years Group: Grouped years of service (0-10, 11-20, 21-30, 31 & above) using the 'Total Working Years' column.
+     
+   - Education: 1 'Below College', 2 'College', 3 'Bachelor', 4 'Master', 5 'Doctor'
+   - EnvironmentSatisfaction: 1 'Low', 2 'Medium', 3 'High', 4 'Very High'
+   - JobInvolvement: 1 'Low', 2 'Medium', 3 'High', 4 'Very High'
+   - RelationshipSatisfaction: 1 'Low', 2 'Medium', 3 'High', 4 'Very High'
+   - WorkLifeBalance: 1 'Bad', 2 'Good', 3 'Better', 4 'Best'
 
-**Cleaninig and Modeling the Data:**
+This comprehensive data preprocessing lays the foundation for our HR Attrition analysis and dashboard creation.
 
 **Creating Dashboard:**
 
+Key Performance Indicators (KPIs):
+- Total Employees
+- Active Employees
+- Attrition Rate
+- Average Age
+- Attrition by Performance
+
+Bar Charts:
+- Utilized 'Education Field' and 'Number of Employees' columns to create a bar chart.
+- Employed a 100% stacked bar chart with 'Gender,' 'Number of Employees,' and 'Gender' as legends.
+- Constructed a column chart featuring 'Age Group,' 'Number of Employees,' and 'Gender' as legends.
+
+Donut Charts: Developed three donut charts,
+  - First chart based on 'Business Travel' and 'Number of Employees' columns.
+  - Second chart using 'Distance Status' and 'Number of Employees' columns.
+  - Third chart representing 'Department' and 'Number of Employees' columns.
+
+Conditional Table: Employed a conditional table with 'Job Role' and 'Attrition' columns to present relevant data.
+
+Slicers: Implemented slicers for 'Gender' and 'Department' to provide interactive filtering options.
+
+This well-rounded dashboard will provide valuable insights for our HR Attrition analysis, allowing for informed decision-making and exploration of key HR metrics.
+
 **Insights:**
+
+Here are the key insights from our HR Attrition Analysis:
+
+1. Total Employees: Our dataset comprises a total of 1,470 employees.
+
+2. Attrition Rate: The overall attrition rate stands at 16%.
+
+3. Gender-Based Attrition:
+   - Male Attrition Rate: 17%
+   - Female Attrition Rate: 15%
+
+4. Department Attrition Rates:
+   - HR Department: 5% attrition rate
+   - Sales Department: 39% attrition rate
+   - R&D Department: 56% attrition rate
+
+5. Average Age: The average age of employees in the dataset is 37 years.
+
+Additional Insight (from me):
+- These attrition rates shed light on the need to explore and address factors contributing to attrition, particularly in the Sales and R&D departments.
+
+These insights provide a comprehensive view of attrition within the organization, highlighting areas for further analysis and potential interventions.
+
+## Acknowlegement
+We've successfully concluded all three projects. I want to extend my gratitude to MeriSKILL and Team for providing me with valuable experiences and knowledge through these projects. Remember, we can always learn from learning, and I'm open to receiving feedback. Let's keep growing and improving together!
+
+> [!NOTE]
+> The steps and projects provided are based on my personal experiences during the internship period and may evolve or change in the future. Internship programs can vary, and the specific steps and tasks involved may be subject to modification over time.
