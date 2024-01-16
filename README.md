@@ -90,7 +90,7 @@ We have successfully completed our first project, gaining valuable insights into
 ### Project Two
 After completing Project 1, our next step is Project 2, focusing on diabetes analysis.
 
-DIABETES ANALYSIS [DASHBOARD](https://github.com/SSonwane26/MeriSKILL_Journey/blob/main/Project2.png)
+DIABETES ANALYSIS [DASHBOARD](https://app.powerbi.com/view?r=eyJrIjoiMTA4NGExZGEtZGYxNS00Njg3LTg1YzYtY2UyODFlYzk4YzQ3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 **About Dataset:**
 
@@ -178,7 +178,7 @@ With these insights, we've successfully completed Project 2. Now, it's time to m
 ### Project Three
 Now, onto our third and final project, focusing on HR Attrition Analysis.
 
-HR ATTRITION [DASHBOARD](https://github.com/SSonwane26/MeriSKILL_Journey/blob/main/Project3.png)
+HR ATTRITION [DASHBOARD](https://app.powerbi.com/view?r=eyJrIjoiODNiOWQ3ZTUtMDU5OS00MTMxLWE0ODUtYTQ1NTU1YmFmOGE0IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 **About Dataset:**
 
